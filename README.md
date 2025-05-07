@@ -17,16 +17,26 @@ A lightweight Python tool to scan JavaScript files for:
 
 ---
 
+## 📥 Download JavaScript Files
+
+Before scanning, you need to download the JavaScript file(s) you want to analyze.
+
+You can use `wget` to fetch them directly in your terminal. Here's an example:
+
+```bash
+wget https://example.com/assets/main.js
+```
+---
+
 ## 📸 Screenshot
 
 Here is a sample output result:
 
-![JS Analyzer Sample Output](screenshot1.png)
-![JS Analyzer Sample Output](screenshot2.png)
+![JS Analyzer Sample Output](img/Screenshot1.png)
+![JS Analyzer Sample Output](img/Screenshot2.png)
 > *(You can upload a screenshot named `screenshot.png` to your repo root to make this work.)*
 
 ---
-
 ## 🚀 Installation
 
 Clone this repository:
