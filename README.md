@@ -27,16 +27,6 @@ You can use `wget` to fetch them directly in your terminal. Here's an example:
 wget https://example.com/assets/main.js
 ```
 ---
-
-## 📸 Screenshot
-
-Here is a sample output result:
-
-![JS Analyzer Sample Output](img/Screenshot1.png)
-![JS Analyzer Sample Output](img/Screenshot2.png)
-> *(You can upload a screenshot named `screenshot.png` to your repo root to make this work.)*
-
----
 ## 🚀 Installation
 
 Clone this repository:
@@ -45,15 +35,16 @@ Clone this repository:
 git clone https://github.com/<your-username>/js-analyzer.git
 cd js-analyzer
 
-
-##Usage
+---
+## Usage
 python3 js_analyzer.py <file1.js> [file2.js] ...
 
-##Example:
+##  Example:
 python3 js_analyzer.py example/sample.js
 ```
 📁 This creates ```sample_analysis.txt``` containing the results.
 
+---
 
 🧠 How It Works
 The js_analyzer.py script is designed to quickly scan JavaScript files for potential security issues and useful recon data. Here's what it does under the hood:
@@ -106,3 +97,13 @@ After processing, the script prints a confirmation message showing where the res
 Python 3.6+
 
 No external libraries required
+
+---
+
+## 📸 Screenshot
+
+Here is a sample output result:
+
+![JS Analyzer Sample Output](img/Screenshot1.png)
+![JS Analyzer Sample Output](img/Screenshot2.png)
+>
