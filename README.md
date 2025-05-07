@@ -26,7 +26,7 @@ Clone this repository:
 
 ```bash
 git clone https://github.com/<your-username>/js-analyzer.git
-cd js-analyzer ```
+cd js-analyzer 
 
 
 ##Usage
