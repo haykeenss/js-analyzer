@@ -1,22 +1,29 @@
-# js-analyzer
-A Python tool to scan JavaScript files for API endpoints, secrets, and dangerous function calls.
-
 # 🔍 JS Analyzer
 
 A lightweight Python tool to scan JavaScript files for:
 
-- 🔗 API Endpoints
-- 🔐 Tokens / Secrets / Keys
+- 🔗 API Endpoints  
+- 🔐 Tokens / Secrets / Keys  
 - ⚠️ Dangerous JavaScript Function Calls
 
 ---
 
 ## 📦 Features
 
-- Regex-based analysis
-- Supports multiple `.js` files
-- Outputs readable report files
+- Regex-based analysis  
+- Supports multiple `.js` files  
+- Outputs readable report files  
 - Useful for bug bounty hunters, pentesters, and developers
+
+---
+
+## 📸 Screenshot
+
+Here is a sample output result:
+
+![JS Analyzer Sample Output](screenshot1.png)
+![JS Analyzer Sample Output](screenshot2.png)
+> *(You can upload a screenshot named `screenshot.png` to your repo root to make this work.)*
 
 ---
 
@@ -26,7 +33,7 @@ Clone this repository:
 
 ```bash
 git clone https://github.com/<your-username>/js-analyzer.git
-cd js-analyzer 
+cd js-analyzer
 
 
 ##Usage
@@ -34,11 +41,11 @@ python3 js_analyzer.py <file1.js> [file2.js] ...
 
 ##Example:
 python3 js_analyzer.py example/sample.js
-
-📁 This creates sample_analysis.txt containing the results.
 ```
+📁 This creates ```sample_analysis.txt``` containing the results.
 
-#🧠 How It Works
+
+🧠 How It Works
 The js_analyzer.py script is designed to quickly scan JavaScript files for potential security issues and useful recon data. Here's what it does under the hood:
 
 1. 📂 File Input
